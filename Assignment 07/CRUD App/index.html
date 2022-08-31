@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CRUD App</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>
+                    <form onsubmit="event.preventDefault();onFormSubmit();">
+                        <div>
+                        <label>Full Name</label>
+                        <input type="text" name="fullName" id="fullName">
+                        </div>
+                        <div>
+                            <label>Email</label>
+                            <input type="text" name="email" id="email">
+                            </div>
+                            <div>
+                                <label>Address</label>
+                                <input type="text" name="address" id="address">
+                                </div>
+                                <div>
+                                    <label>DOB</label>
+                                    <input type="text" name="dob" id="dob">
+                                    </div>
+                                    <div>
+                                        <label>State</label>
+                                        <input type="text" name="city" id="state">
+                                        </div>
+                                        <div>
+                                            <label>City</label>
+                                            <input type="text" name="state" id="city">
+                                            </div>
+                                            <div>
+                                                <label>ZipCode</label>
+                                                <input type="text" name="zipCode" id="ZipCode">
+                                                </div>
+                                                <div class="form-action-buttons">
+                                                    <input type="submit" value="Submit">
+                                                </div>
+                    </form>
+                </td>
+                <td>
+                    <table class="list" id="employeeList">
+                        <thead>
+                            <tr>
+                                <th>Full Name</th>
+                                <th>Email</th>
+                                <th>Address</th>
+                                <th>DOB</th>
+                                <th>State</th>
+                                <th>City</th>
+                                <th>ZipCode</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <script src="/CRUD App/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,133 @@
+.leftHalf {
+    background: url("https://wallpaperaccess.com/full/2029165.jpg");
+    background-repeat: no-repeat;
+    width: 50px;
+    position: absolute;
+    left: 0;
+    height: 100px;
+}
+
+body {
+    background-color: #2B4865;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+}
+
+h1 {
+    color: #F1F1F1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font: 6em sans-serif;
+    position: relative;
+    top: 100px;
+    right: 165px;
+}
+
+h2 {
+  color: #F1F1F1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font: 2em sans-serif;
+  position: relative;
+  top: 70px;
+  right: 618px;
+}
+
+h3 {
+  color: #F1F1F1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font: 2.7em sans-serif;
+  position: relative;
+  top: 50px;
+  right: 488px;
+}
+
+h4 {
+  color: #F1F1F1;
+  position: relative;
+  top: 110px;
+}
+
+h6 {
+  color: #F1F1F1;
+  position: relative;
+  bottom:30px;
+}
+
+
+.center {
+    position: relative;
+    left: 190px;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.button1 {
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding: 10px 85px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #6d44b8;
+}
+
+.button2 {
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding: 10px 85px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+
+.button2:hover {
+  background-color: #6d44b8;
+}
+
+.button3 {
+    background-color: #3B9AE1;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 50px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+
+.button3:hover {
+  background-color: #6d44b8;
+}
+
+.button4 {
+  background-color: #3B9AE1;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 130px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 20px;
+  cursor: pointer;
+}
+
+.button4:hover {
+  background-color: #6d44b8;
+}
