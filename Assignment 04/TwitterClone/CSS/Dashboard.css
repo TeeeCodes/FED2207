@@ -464,6 +464,20 @@
    margin-right: 10px;
  }
 
+ .postButton {
+    display: flex;
+    justify-content: end;
+
+ }
+
+ .postButton button {
+   padding: 5px 10px;
+   border: 1px solid #9a9a9a;
+   color: #39CCCC;
+   background: #9a9a9a;
+   border-radius: 4px;
+ }
+
  .post-container {
    width: 100%;
    background: var(--bg-color);
