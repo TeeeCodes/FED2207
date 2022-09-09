@@ -14,7 +14,13 @@ const Post = function (text, dateCreated, uid) {
     this.uid = uid
 }
 
-
+function obj (someObj) {
+    $.ajax({
+        type: "POST",
+        url: 
+    })
+}
+    
 
 
 var settingsmenu = document.querySelector(".settings-menu");
