@@ -1,3 +1,31 @@
+const users = function (username, password, email, name, dob, uid) {
+    this.username = username
+    this.password = password
+    this.email = email
+    this.name = name
+    this.dob = dob
+    this.uid = uid
+}
+
+const Post = function (text, dateCreated, uid) {
+    this.text = text
+    this.dateCreated = dateCreated
+    this.dateUpdated = dateUpdated
+    this.uid = uid
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 var settingsmenu = document.querySelector(".settings-menu");
 var darkBtn = document.getElementById("dark-btn");
 
