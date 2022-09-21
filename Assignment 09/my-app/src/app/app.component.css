@@ -1,69 +1,23 @@
-.rectangle {
-    position: absolute;
+.outerContainer {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.innerContainer {
+    display: flex;
     background-color: #E28625;
-    border-radius: 0px;
-    height: 500px;
-    width: 307px;
-    left: 260px;
-    top: 171px;
+    border-radius: 8px;
 }
 
-.rectangle2 {
-    position: absolute;
-    background-color: #006971;
-    height: 500px;
-    width: 307px;
-    left: 567px;
-    top: 171px;
-}
-
-.rectangle3 {
-    position: absolute;
-    background-color: #004140;
-    height: 500px;
-    width: 307px;
-    left: 873px;
-    top: 171px;
-}
-
-.h1 {
-   position: absolute;
-   font-family: 'Big Shoulders Display';
-   font-weight: 700;
-   font-size: 40px;
-   font-style: normal;
-   line-height: 48px;
-   text-transform: uppercase;
-   color: #F2F2F2;
-   height: 48px;
-   left: 28px;
-   top: 74px;
-}
-
-.btn {
-    box-sizing: border-box;
-    position: absolute;
-    border: 13px solid #ffffff;
-    border-radius: 25px;
-    height: 40px;
-    top: 408px;
-    margin-left: 12px;
-}
-
-.p {
-    position: absolute;
-    color: #FFFFFF;
-    height: 225px;
-    width: 240px;
-    left: 22px;
-    top: 167px;
-    font-family: 'Lexend Deca';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 25px;
-}
-
-.svg {
-   left: 1000px;
+@media only screen and (max-width: 376px) {
+    .outerContainer {
+        height: 260vh;
+    }
+    
+    .innerContainer {
+        flex-direction: column;
+    }
 }

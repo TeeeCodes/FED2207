@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+.h1 {
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.p, .btn {
+    font-family: 'Lexend Deca', sans-serif;
+}
