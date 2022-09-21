@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     margin: 0;
     font-family: fantasy;
@@ -25,4 +26,33 @@ ul {
   
   li a:hover {
     background-color: #111;
+=======
+body {
+    margin: 0;
+    font-family: fantasy;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: aquamarine;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+>>>>>>> f96c6507b703c3b7ef582269dbe6e45d5ad36359
   }
