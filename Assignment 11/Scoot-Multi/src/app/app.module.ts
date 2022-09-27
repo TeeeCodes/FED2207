@@ -18,6 +18,7 @@ import { SayHelloComponent } from './careers/say-hello/say-hello.component';
 import { WorldMapComponent } from './locations/world-map/world-map.component';
 import { MessageUsComponent } from './locations/message-us/message-us.component';
 import { StatesComponent } from './locations/states/states.component';
+import { HeaderComponent } from './home/header/header.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { StatesComponent } from './locations/states/states.component';
     SayHelloComponent,
     WorldMapComponent,
     MessageUsComponent,
-    StatesComponent
+    StatesComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
