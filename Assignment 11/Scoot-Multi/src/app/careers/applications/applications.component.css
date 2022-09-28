@@ -1,0 +1,53 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+article {
+    width: 311px;
+    height: 190px;
+    background: #F2F5F9;
+    margin-bottom:16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.803571px;
+    color: #495567;
+}
+
+p {
+    font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+color: #495567;
+}
+
+button {
+width: 247px;
+height: 53px;
+margin-top: 16px;
+ background: #FCB72B;
+border: none;
+ font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF;
+}
