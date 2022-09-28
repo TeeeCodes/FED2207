@@ -1,162 +1,89 @@
-.test {
+h2 {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.test .join-usImg {
-width: 240px;
-height: 240px;
-margin-bottom: 56px;
-border-radius: 50%;
-}
-
-.arrow1 {
-    position: absolute;
-    top: 124px;
-    left: 28px;
-}
-
-.test2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.test2 h2 {
-font-family: 'Space Mono';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 28px;
-text-align: center;
-letter-spacing: -1.07143px;
-margin-bottom: 27px;
-color: #495567;
-}
-
-.test2 p {
-font-family: 'Lexend Deca';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 25px;
-text-align: center;
-margin-bottom: 56px;
-color: #939CAA;
-} 
-
-
-
-.test3 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.test3 .betterImg {
-width: 240px;
-height: 240px;
-margin-bottom: 56px;
-border-radius: 50%;
-}
-
-.arrow2 {
-    position: absolute;
-    top: 644px;
-    left: -104px;
-}
-
-.test4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.test4 h2 {
-font-family: 'Space Mono';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 28px;
-text-align: center;
-letter-spacing: -1.07143px;
-margin-bottom: 27px;
-color: #495567;
-}
-
-.test4 p {
- width: 311px;
-font-family: 'Lexend Deca';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 25px;
-text-align: center;
-margin-bottom: 56px;
-color: #939CAA;
-} 
-
-.test4 h2, .test2 p {
-width: 311px;
-
-}
-
-
-
-.test5 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.test5 .communityImg {
-width: 240px;
-height: 240px;
-margin-bottom: 64px;
-border-radius: 50%;
-}
-
-.arrow3 {
-    position: absolute;
-    top: 644px;
-    left: -104px;
-}
-
-.test6 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.test6 h2 {
-font-family: 'Space Mono';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 28px;
-text-align: center;
-letter-spacing: -1.07143px;
-margin-bottom: 27px;
-color: #495567;
-}
-
-.test6 p {
- width: 311px;
-font-family: 'Lexend Deca';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 25px;
-text-align: center;
-margin-bottom: 56px;
-color: #939CAA;
-} 
-
-.test6 h2, .test2 p {
-width: 311px;
-
-}
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -1.42857px;
+    color: #495567;
+        margin-top: 120px;
+        margin-bottom: 64px;
+    
+    }
+    
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .techImg img {
+    width: 240px;
+    height: 240px;
+    margin-bottom: 0px;
+    border-radius: 50%;
+    }
+    .techImg {
+        margin-bottom: -28px;
+    }
+    
+    .techImg div {
+        position: relative;
+        width: 96px;
+        height: 96px;
+        background: #FCB72B;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 72px;
+        bottom: 54px;
+    }
+    
+    .techImg div p {
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: -1.07143px;
+        color: #495567;
+    }
+    
+    .techText h3, .techText p {
+    width: 311px;
+    }
+    
+    .techText h3 {
+        font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 27px;
+    letter-spacing: -1.07143px;
+    color: #495567;
+    }
+    
+    .techText p {
+        font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 56px;
+    color: #939CAA;
+    }
