@@ -1,0 +1,43 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 24px;
+}
+
+h3 {
+ font-family: 'Space Mono';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 20px;
+ line-height: 28px;
+ text-align: center;
+ margin-bottom: 24px;
+ letter-spacing: -0.892857px;
+ color: #495567;
+}
+
+p {
+    width: 311px;
+    height: 100px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 48px;
+    color: #939CAA; 
+}

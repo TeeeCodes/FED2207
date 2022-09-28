@@ -1,0 +1,99 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+article {
+    width: 311px;
+    height: 112px;
+    background: #F2F5F9;
+    margin-bottom:16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.extended {
+    width: 311px;
+    height: 311px;
+}
+
+h3 {
+margin-top: 145px;
+margin-bottom: 48px;
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 32px;
+text-align: center;
+letter-spacing: -1.42857px;
+color: #495567;
+}
+
+h5 {
+    margin-bottom: 32px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -1.07143px;
+    color: #495567;
+}
+
+.safe {
+    margin-top: 48px;
+    margin-bottom: 32px;
+}
+
+h4 {
+    
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.803571px;
+    color: #495567;
+}
+
+.h4Extended {
+ position: relative;
+ right: 12.75%;
+font-family: 'Space Mono';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 18px;
+ line-height: 24px;
+ letter-spacing: -0.803571px;
+ color: #495567;
+ margin-bottom: 24px;
+}
+
+p {
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+color: #495567;
+}
+
+.pExtended {
+    width: 251px;
+    height: 175px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #495567;
+    }

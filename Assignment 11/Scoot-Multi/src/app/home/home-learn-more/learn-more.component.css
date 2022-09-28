@@ -1,0 +1,211 @@
+.telemetryContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.telemetryContainer .telemetry {
+width: 311px;
+height: 311px;
+margin-top: 120px;
+margin-bottom: 56px;
+border-radius: 50%;
+}
+
+.arrow1 {
+    position: absolute;
+    top: 1130px;
+    left: 28px;
+}
+
+.telemetryText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.telemetryText h2 {
+    font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 32px;
+text-align: center;
+letter-spacing: -1.42857px;
+margin-bottom: 32px;
+color: #495567;
+}
+
+.telemetryText p {
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+margin-bottom: 32px;
+color: #939CAA;
+} 
+
+.telemetryText button {
+ width: 180px;
+ height: 53px;
+background: #FCB72B;
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+border: none;
+color: #FFFFFF;
+}
+
+.telemetryText h2, .test2 p {
+width: 311px;
+
+}
+
+/* second div */
+
+.nearYou {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nearYou .nearImg {
+width: 311px;
+height: 311px;
+margin-top: 120px;
+margin-bottom: 56px;
+border-radius: 50%;
+}
+
+.arrow2 {
+    position: absolute;
+    top: 1782px;
+    left: -173px;
+}
+
+.nearText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nearText h2 {
+    font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 32px;
+text-align: center;
+letter-spacing: -1.42857px;
+margin-bottom: 32px;
+color: #495567;
+}
+
+.nearText p {
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+margin-bottom: 32px;
+color: #939CAA;
+} 
+
+.nearText button {
+ width: 180px;
+ height: 53px;
+background: #FCB72B;
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+border: none;
+color: #FFFFFF;
+}
+
+.nearText h2, .nearText p {
+width: 311px;
+
+}
+
+/* third div  */
+
+.payments {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.payments .paymentsImg {
+width: 311px;
+height: 311px;
+margin-top: 120px;
+margin-bottom: 56px;
+border-radius: 50%;
+}
+
+.arrow3 {
+    position: absolute;
+    top: 1782px;
+    left: -173px;
+}
+
+.paymentsText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paymentsText h2 {
+ font-family: 'Space Mono';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 32px;
+ line-height: 32px;
+ text-align: center;
+ letter-spacing: -1.42857px;
+ margin-bottom: 32px;
+ color: #495567;
+}
+
+.paymentsText p {
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+margin-bottom: 32px;
+color: #939CAA;
+} 
+
+.paymentsText button {
+ width: 180px;
+ height: 53px;
+background: #FCB72B;
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+margin-bottom: 120px;
+border: none;
+color: #FFFFFF;
+}
+
+.paymentsText h2, .paymentsText p {
+width: 311px;
+
+}
