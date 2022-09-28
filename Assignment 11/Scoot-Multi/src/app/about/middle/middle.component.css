@@ -1,0 +1,219 @@
+@media only screen and (max-width: 375px ) {
+
+    
+    header {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+
+    h1 {
+        position: relative; 
+         top: 100px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: -1.78571px;
+        color: #FFFFFF;
+        z-index: 1; 
+    }
+    
+    .digitalImg {
+        position: relative;
+         width: 311px;
+        height: 311px;
+        left: 32px;
+        top: 60px; 
+        z-index: -1;
+        border-radius: 50%;
+    }
+    /* .divContainer1 {
+        overflow: hidden;
+    } */
+    
+    .arrow1 { 
+        position: relative;
+        width: 734px;
+        left: 28px;
+        bottom: 130px;
+        /* overflow-x: hidden;
+        overflow-y: hidden;  */
+    } 
+    
+     .h2Text1 {
+        position: relative;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -1.42857px;
+        bottom: 68px;
+        color: #495567;
+    }
+    
+    .pText1 {
+        position: relative;
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        top: -43px;
+        text-align: center;
+        color: #939CAA;
+    }
+
+    .betterImg {
+        position: relative;
+        width: 311px;
+        height: 311px;
+        left: 32px;
+        top: 96px;
+        z-index: -1;
+        border-radius: 50%;
+    }
+
+   .arrow2 {
+    position: relative;
+    right: 105px;
+    bottom: 225px;
+    }
+
+   .h2Text2 {
+        position: relative;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -1.42857px;
+        bottom: 68px;
+        color: #495567;
+    } 
+
+    .pText2 {
+        position: relative;
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        top: -43px;
+        text-align: center;
+        color: #939CAA;
+    }
+
+    .techImg {
+        position: relative;
+         width: 240px;
+        height: 240px;
+        left: 68px;
+        top: 60px; 
+        z-index: -1;
+        border-radius: 50%;
+    }
+
+    .techh2 {
+        position: relative;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -1.42857px;
+        top: 110px;
+        color: #495567;
+    } 
+
+    .techText {
+        position: relative;
+        top: 132px;
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        bottom: 68px;
+        color: #939CAA;
+    } 
+
+    .integrityImg {
+        position: relative;
+         width: 240px;
+        height: 240px;
+        left: 68px;
+        top: 179px; 
+        z-index: -1;
+        border-radius: 50%;
+    }
+
+    .integrityh2 {
+        position: relative;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -1.42857px;
+        top: 242px;
+        color: #495567;
+    } 
+
+    .integrityText {
+        position: relative;
+        top: 268px;
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #939CAA;
+    } 
+
+    .communityImg {
+        position: relative;
+         width: 240px;
+        height: 240px;
+        left: 68px;
+        top: 318px; 
+        z-index: -1;
+        border-radius: 50%;
+    }
+
+    .communityh2 {
+        position: relative;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -1.42857px;
+        top: 110px;
+        color: #495567;
+    } 
+
+    .communityText {
+        position: relative;
+        top: 132px;
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        bottom: 68px;
+        color: #939CAA;
+    } 
+}

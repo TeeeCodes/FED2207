@@ -1,0 +1,76 @@
+
+@media only screen and (max-width: 420px) {
+
+    header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    
+    .h1 {
+        position: absolute;
+        width: 500px;
+        height: 112px;
+        top: 249px;
+        left: 165px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -2.5px;
+        z-index: 1;
+    }
+    
+    .scoot {
+    position: absolute;
+     z-index: -1; 
+    width: 375px;
+    height: 650px;
+    left: 0px;
+    top: 64px;
+    }
+    
+    .arrow {
+    position: absolute;
+    width: 447px;
+    height: 138px;
+    top: 478px;
+    left: -312px;
+    border: 15px;
+    color: #FCB72B;
+    }
+    
+    .p {
+    position: absolute;
+    width: 311px;
+    height: 125px;
+    left: 32px;
+    top: 259px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    
+    button {
+        position: absolute;
+        width: 180px;
+        height: 53px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        top: 418px;
+        left: 98px;
+        background-color: #FCB72B;
+        color: #FFFFFF;
+    }
+    
+}
+
