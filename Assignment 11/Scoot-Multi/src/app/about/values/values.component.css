@@ -1,0 +1,162 @@
+.test {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.test .join-usImg {
+width: 240px;
+height: 240px;
+margin-bottom: 56px;
+border-radius: 50%;
+}
+
+.arrow1 {
+    position: absolute;
+    top: 124px;
+    left: 28px;
+}
+
+.test2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.test2 h2 {
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+letter-spacing: -1.07143px;
+margin-bottom: 27px;
+color: #495567;
+}
+
+.test2 p {
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+margin-bottom: 56px;
+color: #939CAA;
+} 
+
+
+
+.test3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.test3 .betterImg {
+width: 240px;
+height: 240px;
+margin-bottom: 56px;
+border-radius: 50%;
+}
+
+.arrow2 {
+    position: absolute;
+    top: 644px;
+    left: -104px;
+}
+
+.test4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.test4 h2 {
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+letter-spacing: -1.07143px;
+margin-bottom: 27px;
+color: #495567;
+}
+
+.test4 p {
+ width: 311px;
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+margin-bottom: 56px;
+color: #939CAA;
+} 
+
+.test4 h2, .test2 p {
+width: 311px;
+
+}
+
+
+
+.test5 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.test5 .communityImg {
+width: 240px;
+height: 240px;
+margin-bottom: 64px;
+border-radius: 50%;
+}
+
+.arrow3 {
+    position: absolute;
+    top: 644px;
+    left: -104px;
+}
+
+.test6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.test6 h2 {
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+letter-spacing: -1.07143px;
+margin-bottom: 27px;
+color: #495567;
+}
+
+.test6 p {
+ width: 311px;
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+margin-bottom: 56px;
+color: #939CAA;
+} 
+
+.test6 h2, .test2 p {
+width: 311px;
+
+}
