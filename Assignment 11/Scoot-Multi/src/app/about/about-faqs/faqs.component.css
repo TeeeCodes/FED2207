@@ -3,11 +3,13 @@ section {
     flex-direction: column;
     align-items: center;
     margin-bottom: 120px;
+    
+    
 }
 
 article {
-    width: 311px;
-    height: 112px;
+    width: 730px;
+    height: 157px;
     background: #F2F5F9;
     margin-bottom:16px;
     display: flex;
@@ -17,8 +19,8 @@ article {
 }
 
 .extended {
-    width: 311px;
-    height: 311px;
+    width: 730px;
+    height: 191px;
 }
 
 h3 {
@@ -79,6 +81,8 @@ font-family: 'Space Mono';
 p {
 font-family: 'Lexend Deca';
 font-style: normal;
+width: 650px;
+height: 75px;
 font-weight: 400;
 font-size: 15px;
 line-height: 25px;
