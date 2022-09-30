@@ -19,16 +19,21 @@
     }
     
     p {
-    font-family: 'Lexend Deca';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 25px;
-    text-align: center;
-    margin-bottom: 32px;
-    color: #939CAA;
-    }
     
+        width: 311px;
+        height: 125px;
+        margin-left: 32px;
+        top: 992px;
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        margin-bottom: 32px;
+        color: #939CAA;
+    }
+
     button {
      width: 180px;
      height: 53px;

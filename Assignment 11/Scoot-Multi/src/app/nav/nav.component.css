@@ -1,9 +1,53 @@
-.h2 {
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 375px;
+    height: 64px;
+    background: #FFFFFF;
+}
+
+h2 {
+    left: 150px;
+    top: 22px;
+    bottom: 22px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -1.78571px;
+    color: #495567;
+}
+
+.block {
+    margin-right: 98.31px;
+}
+
+.rectangle1 {
     position: absolute;
-width: 75.5px;
-height: 20px;
-left: 150px;
-top: 22px;
-bottom: 22px;
-color: #495567;
+    width: 19.69px;
+    height: 3.69px;
+    left: 32px;
+    top: 24px;
+    background: #FCB72B;
+}
+
+.rectangle2 {
+    position: absolute;
+    width: 19.69px;
+    height: 3.69px;
+    left: 32px;
+    top: 30.15px;
+    background: #FCB72B;
+}
+
+.rectangle3 {
+    position: absolute;
+    width: 19.69px;
+    height: 3.69px;
+    left: 32px;
+    top: 36.31px;
+    background: #FCB72B;
 }

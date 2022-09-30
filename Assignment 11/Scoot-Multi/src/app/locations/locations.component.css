@@ -1,9 +1,13 @@
+.container {
+    display: flex;
+}
+
 h1 {
     position: absolute;
     width: 311px;
     height: 40px;
     left: 32px;
-    top: 53px;
+    top: 123px;
     font-family: 'Space Mono';
     font-style: normal;
     font-weight: 700;
@@ -15,7 +19,7 @@ h1 {
 }
 
 .img1 {
-    width: 375px;
+    width: 100%;
     height: 160px;
     left: 0px;
     top: 64px;
@@ -30,5 +34,11 @@ h1 {
 
 
 @media only screen and (min-width: 700px) {
+    .img1 {
+        display: none;
+    }
 
+    .img2 {
+        display: block;
+    }
 }
