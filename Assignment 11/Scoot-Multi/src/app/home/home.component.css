@@ -69,12 +69,58 @@ button {
    }
 
 @media only screen and (min-width: 700px) {
+    p {
+        position: absolute;
+        width: 405px;
+        height: 100px;
+        left: 260px;
+        top: 401px;
+    }
+
+    .arrow {
+        position: absolute;
+        width: 202.5px;
+        height: 0px;
+        left: 0.5px;
+        top: 450.5px;
+
+border: 15px solid #FCB72B;
+    }
+    
     .img1 {
         display: none;
     }
 
     .img2 {
         display: block;
+        width: 100%;
+    }
+
+    button {
+        position: absolute;
+        box-sizing: border-box;
+        width: 180px;
+        height: 53px;
+        left: 260px;
+        top: 581px;
+        border: 3px solid #FCB72B;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+       }
+
+    button:hover {
+        box-sizing: border-box;
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        left: 0px;
+        top: 0px;
+        border: 3px solid #FCB72B;
     }
 }
 

@@ -41,3 +41,15 @@ p {
     margin-bottom: 48px;
     color: #939CAA; 
 }
+
+@media only screen and (min-width: 700px) {
+    .row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 1275px;
+        height: 291px;
+        top: 906px;
+    }
+}

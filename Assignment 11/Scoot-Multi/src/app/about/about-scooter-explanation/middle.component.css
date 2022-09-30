@@ -14,7 +14,7 @@ border-radius: 50%;
 
 .arrow1 {
     position: absolute;
-    top: 359px;
+    top: 483px;
     left: 28px;
 }
 
@@ -66,10 +66,9 @@ width: 311px;
 
 }
 
-
-
-
-
+.whiteCircle {
+    display: none;
+}
 
 .test3 {
     width: 100%;
@@ -87,7 +86,7 @@ border-radius: 50%;
 
 .arrow2 {
     position: absolute;
-    top: 877px;
+    top: 1005px;
     left: -104px;
 }
 
@@ -124,4 +123,75 @@ color: #939CAA;
 .test4 h2, .test2 p {
 width: 311px;
 
+}
+
+@media only screen and (min-width: 700px) {
+    .urbanTest {
+        display: flex;
+        flex-direction: row;
+        height: 445px;
+        margin-left: 64px;
+        left: 265px;
+        top: 981px;
+    }
+
+    .whiteCircle {
+        position: absolute;
+        width: 345px;
+        height: 345px;
+        left: -264px;
+        top: 1011px;
+        border-radius: 50%;
+        background: #E5ECF4;
+    }
+
+    .betterImg {
+        position: absolute;
+        width: 445px;
+        height: 445px;
+        left: 165px;
+        top: 1021px;
+    }
+
+    .join-usImg {
+        position: absolute;
+        width: 668px;
+        height: 445px;
+        left: 800px;
+        top: 416px;
+    }
+
+    .group1 {
+        display: flex;
+        flex-direction: row;
+        height: 445px;
+        margin-left: 64px;
+        width: 1619px;
+        left: -165px;
+        top: 416px;
+    }
+
+    .test2 {
+        position: absolute;
+        width: 445px;
+        height: 195px;
+        left: 165px;
+        top: 501px;
+    }
+
+    .test4 {
+        position: absolute;
+        width: 445px;
+        height: 195px;
+        left: 830px;
+        top: 1106px;
+    }
+
+    .arrow2 {
+        position: absolute;
+        left: -149.97px;
+        top: 989px;
+        border: 15px  #FCB72B;
+  
+    }
 }

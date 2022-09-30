@@ -34,11 +34,54 @@ h1 {
 
 
 @media only screen and (min-width: 700px) {
+    h1 {
+        position: absolute;
+        height: 56px;
+        left: 11.46%;
+        right: 68.47%;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 56px;
+        margin-top: 32px;
+        letter-spacing: -2.5px;
+        color: #FFFFFF;
+        
+    }
+    
+    .container {
+      width: 100%;
+    }
+   
     .img1 {
         display: none;
     }
 
     .img2 {
         display: block;
+        width: 100%;
     }
+
+    .circles {
+        position: absolute;
+        width: 234px;
+        height: 63px;
+        left: 1237px;
+        top: 68px;
+    }
+
+    .circle1 {
+        position: absolute;
+        box-sizing: border-box;
+        position: absolute;
+        margin-top: 68px;
+        left: 96.88%;
+        right: 3.82%;
+        top: 34.25%;
+        bottom: 34.75%;
+        border: none solid #FFFFFF;
+    }
+
+   
 }

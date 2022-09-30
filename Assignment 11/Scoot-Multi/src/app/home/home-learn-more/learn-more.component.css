@@ -15,7 +15,7 @@ border-radius: 50%;
 
 .arrow1 {
     position: absolute;
-    top: 1917px;
+    top: 1987px;
     left: 28px;
 }
 
@@ -86,7 +86,7 @@ border-radius: 50%;
 
 .arrow2 {
     position: absolute;
-    top: 2511px;
+    top: 2611px;
     left: -173px;
 }
 
@@ -157,7 +157,7 @@ border-radius: 50%;
 
 .arrow3 {
     position: absolute;
-    top: 3350px;
+    top: 3417px;
     left: 127px;
 }
 
@@ -207,5 +207,21 @@ color: #FFFFFF;
 
 .paymentsText h2, .paymentsText p {
 width: 311px;
+}
+
+@media only screen and (min-width: 700px) {
+    .telemetryDiv {
+        display: flex;
+        flex-direction: row;
+       
+    }
+
+    .telemetryContainer {
+        
+        width: 445px;
+        height: 445px;
+        left: 830px;
+        top: 1397px;
+    }
 
 }
