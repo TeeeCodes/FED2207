@@ -101,3 +101,7 @@ color: #495567;
     text-align: center;
     color: #495567;
     }
+
+    @media only screen and (min-width: 700px) {
+        
+    }
