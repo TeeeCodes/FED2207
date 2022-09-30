@@ -1,8 +1,23 @@
-img {
-    margin-top: 10px;
+.img1 {
+    margin-top: 74px;
     width: 100%;
 }
 
-.worldMap {
-    
+.img2 {
+  display: none;
+}
+
+@media only screen and (min-width: 700px) {
+  .img1 {
+    display: none;
+  }
+
+  .img2 {
+    position: absolute;
+    width: 1110px;
+    height: 543px;
+    left: 63px;
+    top: 416px;
+    display: block;
+  }
 }

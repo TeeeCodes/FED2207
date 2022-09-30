@@ -1,44 +1,97 @@
-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 72px;
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 72px;
+    }
+    
+    h1 {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -1.42857px;
+    margin-bottom: 32px;
+    color: #495567;
+    }
+    
+    p {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 32px;
+    color: #939CAA;
+    }
+    
+    button {
+     width: 180px;
+     height: 53px;
+     margin-bottom: 72px;
+     background: #FCB72B;
+     border: none;
+     font-family: 'Space Mono';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 15px;
+     line-height: 25px;
+     text-align: center;
+     color: #FFFFFF;
+    }
+
+
+ @media only screen and (min-width: 700px) {
+    section {
+        position: absolute;
+        width: 1111px;
+        height: 100px;   
+        display: flex;
+        flex-direction: row;
+        top: 0px;
+        left: -86px;
+    }
+    
+    button {
+        position: absolute;
+        width: 180px;
+        height: 53px;
+        left: 1095px;
+        top: 1103px;
+
+    }
+
+    p {
+        position: absolute;
+        width: 445px;
+        height: 100px;
+        left: 545px;
+        top: 1079px;
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #939CAA;
+    }
+
+    h1 {
+        position: absolute;
+        width: 351px;
+        height: 96px;
+        left: 164px;
+        top: 1081px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -2.14286px;
+        color: #495567;
+    }
 }
 
-h1 {
-font-family: 'Space Mono';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 32px;
-text-align: center;
-letter-spacing: -1.42857px;
-margin-bottom: 32px;
-color: #495567;
-}
-
-p {
-font-family: 'Lexend Deca';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 25px;
-text-align: center;
-margin-bottom: 32px;
-color: #939CAA;
-}
-
-button {
- width: 180px;
- height: 53px;
- margin-bottom: 72px;
- background: #FCB72B;
- border: none;
- font-family: 'Space Mono';
- font-style: normal;
- font-weight: 700;
- font-size: 15px;
- line-height: 25px;
- text-align: center;
- color: #FFFFFF;
-}

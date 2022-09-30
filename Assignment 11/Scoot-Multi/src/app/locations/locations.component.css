@@ -1,0 +1,34 @@
+h1 {
+    position: absolute;
+    width: 311px;
+    height: 40px;
+    left: 32px;
+    top: 53px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -1.78571px;
+    color: #FFFFFF;
+}
+
+.img1 {
+    width: 375px;
+    height: 160px;
+    left: 0px;
+    top: 64px;
+}
+
+.img2 {
+    display: none;
+}
+
+
+
+
+
+@media only screen and (min-width: 700px) {
+
+}
