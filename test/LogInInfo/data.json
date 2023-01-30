@@ -1,0 +1,18 @@
+{
+    "users":{
+        "JimmyNeutron": {
+            "name": "Jimmy Neutron",
+            "password": "113"
+        },
+        "DavidBlaine": {
+            "name": "David Blaine",
+            "password": "331"
+        }
+    },
+    "posts":{
+        "uuid1": {
+            "author": "jimmyNeutron",
+            "content": "test"
+        }
+    }
+}
