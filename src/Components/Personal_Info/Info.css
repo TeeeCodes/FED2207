@@ -1,0 +1,37 @@
+.mainP{
+    position: relative;
+    top: -37px;
+}
+
+.MainContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+    height: 572px;
+    left: 0px;
+    top: 110px;
+    margin-left: 590px;
+    margin-top: 56px;
+    /* border: 2px solid black; */
+}
+
+#nameBox{
+    width: 630px;
+    height: 64px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+}
+
+#emailBox{
+    width: 630px;
+    height: 64px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+}
+
+#phoneBox{
+    width: 630px;
+    height: 64px;
+    border-radius: 5px;
+}

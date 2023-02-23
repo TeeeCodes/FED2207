@@ -1,0 +1,65 @@
+.planBox{
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    left: 196px;
+    top: -250px;
+}
+
+.arcadeBox{
+    width: 138px;
+    height: 160px;
+    cursor: pointer;
+    margin-top: 164px;
+    margin-left: 390px;
+   border-radius: 6px;
+   border: 1px black solid;
+}
+
+.advancedBox{
+    width: 138px;
+    height: 160px;
+    margin-top: -164px;
+    margin-left: 160px;
+    border-radius: 6px;
+    border: 1px black solid;
+}
+
+.proBox{
+    width: 138px;
+    height: 160px;
+    margin-top: -164px;
+    margin-left: 160px;
+    border-radius: 6px;
+    border: 1px black solid;
+}
+
+.planImg{
+    margin-top: 10px;
+    margin-bottom: 39px;
+    margin-left: 16px;
+}
+
+.planH4{
+    width: 53;
+    height: 18;
+    margin-top: 61px;
+    margin-left: 16px;
+}
+
+.planP{
+    margin-left: 13px;
+}
+
+#advancedImg{
+    max-width: 50%;
+}
+
+#arcadeImg{
+    max-width: 50%;
+}
+
+#proImg{
+    max-width: 50%;
+}
